@@ -58,10 +58,10 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="#"
+                href={email}
                 className="flex justify-around items-center gap-2 text-white bg-primary p-2 pl-4 pr-4 rounded-md dark:bg-[#fff2]"
               >
-                Contact
+                Contact me
               </a>
             </li>
           </ul>
