@@ -4,6 +4,15 @@ export default function useProjects(): Array<Project> {
   const projects = [
     {
       // id: 0,
+      title: "Full-stack blog",
+      description:
+        "A full-stack responsive blog implementation with a Grafana dashboard, the stack used is NodeJS with express for the backend (typescript) with prisma as an ORM and Postgresql for the database, NextJS and tailwind are used for the frontend, the backend server provides metrics and traces, the metrics are pulled by prometheus and the traces are exported to Jaeger, both of which are observable in a grafana dashboard. Also, the whole app is containerized using Docker.",
+      link: "https://github.com/hazyuun/fullstack-blog",
+      tags: ["Full-stack", "Web Dev"],
+      img: "blog.png",
+    },
+    {
+      // id: 0,
       title: "GameBoy Emulator",
       description:
         "A GameBoy emulator written in C++ with OpenGL for rendering",
