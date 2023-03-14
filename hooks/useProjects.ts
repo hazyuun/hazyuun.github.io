@@ -31,6 +31,15 @@ export default function useProjects(): Array<Project> {
       img: "chrono.png",
     },
     {
+      // id: 0,
+      title: "Pomodoro timer",
+      description:
+        "A pomodoro timer app written in svelte with an elegant neumorphism look",
+      link: "https://github.com/hazyuun/pomodoro-timer",
+      tags: ["Front-end", "Web Dev"],
+      img: "timer.png",
+    },
+    {
       // id: 2,
       title: "Hydrangea: x86 Operating System",
       description: `An x86 operating system written from scratch in C and assembly. it is my first take on making a kernel from scratch, it's not the best, but I think it's not bad for a first try. The kernel runs in the lower half, and has a weired and inefficient memory layout, it has some syscalls even though not enough to make a usable user shell.`,
